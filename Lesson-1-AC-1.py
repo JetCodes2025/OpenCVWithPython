@@ -1,15 +1,3 @@
-# Refer - https://www.geeksforgeeks.org/opencv-python-tutorial/
-
-# Explain what is OpenCV ?
-# What is the use of OpenCV and why one need to learn it ?
-
-# Install OpenCV 
-# Run - pip3 install opencv-python
-
-# Explain how images are read in Python - as mutli-dimensional matrix
-# each cell is pixel containing a RGB color code
-
-##### Read an image and displaying it using OpenCV
 
 import cv2
 
@@ -83,3 +71,4 @@ cv2.imshow("Red Saturation Image", R)
 cv2.waitKey(0)
   
 cv2.destroyAllWindows()
+
